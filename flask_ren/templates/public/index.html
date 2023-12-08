@@ -11,7 +11,9 @@
 <body>
     <header>
         <h2 class="logo">Logo</h2>
+        {% block content %}
         <nav class="navigation">
+            <a href="#">{{key["number"]}}</a>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
@@ -19,6 +21,7 @@
             <a href="#">Contact</a>
             <button class="btnLogin-popup">Login</button>
         </nav>
+        {% endblock %}
     </header>
 
     <div class="wrapper">
@@ -26,15 +29,15 @@
 
         <div class="form-box login">
             <h2>Login</h2>
-            <form action="/login" method="post"> <!-- 入力をサーバーに送るやつ -->
+            <form action="/" method="post"> <!-- 入力をサーバーに送るやつ -->
                 <div class="input-box">
                     <span class="icon"><ion-icon name="mail"></ion-icon></span><!-- spanはどうでもいいやつ -->
-                    <input type="email" required name="email">
+                    <input type="email" required name="email_name">
                     <label>Email</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span><!-- spanはどうでもいいやつ -->
-                    <input type="password" required name="password">
+                    <input type="password" required name="pw_name">
                     <label>Password</label>
                 </div>
                 <button type="submit" class="btn" formmethod="post">Login</button> <!-- form の中のbtnのsubmitは押されたとき、fromのaction宛てに送信 -->
