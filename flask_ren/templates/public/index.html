@@ -13,7 +13,6 @@
         <h2 class="logo">Logo</h2>
         {% block content %}
         <nav class="navigation">
-            <a href="#">{{key["number"]}}</a>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
@@ -21,6 +20,11 @@
             <a href="#">Contact</a>
             <button class="btnLogin-popup">Login</button>
         </nav>
+        <div class="userinfo">
+            <h3 class="userName">{{key["username"]}}</h3>
+            <img class="userIcon" src="{{key['userimg']}}" width="50px" height="50px">
+            
+        </div>
         {% endblock %}
     </header>
 

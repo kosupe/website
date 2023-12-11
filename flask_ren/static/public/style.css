@@ -34,6 +34,21 @@ header {
     z-index: 99;
 }
 
+header .userinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    border: 2px solid rgb(215, 219, 170);
+    border-radius: 20px;
+    background-color: rgba(170, 170, 255, 0.397);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .7);/* X Y ずらし npx 大きさ　rgba()色*/
+}
+header .userinfo .userName{
+    margin: 0 10px;
+    font-size: 1.4em;
+}
+
 .logo {
     font-size: 2em;/* 親要素のfontの200% */
     color: var(--base-color);
@@ -49,6 +64,8 @@ header {
     text-decoration: none;
 }
 
+
+
 .navigation a::after {
     content: "";
     position: absolute;
@@ -61,6 +78,7 @@ header {
     transition: .2s;
     transform: translateX(-50%);/*動き出す基準を変更*/
 }
+
 
 .navigation a:hover::after{
     width: 100%;

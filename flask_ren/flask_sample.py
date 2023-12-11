@@ -4,11 +4,9 @@ app = Flask(__name__, static_folder="./static")
 
 @app.route("/", methods=["GET", "POST"])
 def home():
-    no = request.args.get("no")
-    print(no)
     words ={
-        "number" : no,
-        "username" : None
+        "username" : "GUEST",
+        "userimg"  : "https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png"
     }
 
     #emailとpwのPOST
@@ -20,6 +18,7 @@ def home():
 
         #usernameのget
         words["username"] = "KOSUPE"
+        words["userimg"]  = "static\img\maru_icon.png"
 
     return render_template('public/index.html', key=words)
 
