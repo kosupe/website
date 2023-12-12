@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from static.sql.db import DBClass
 
 app = Flask(__name__, static_folder="./static")
 
@@ -16,9 +17,12 @@ def home():
         print(pw_name)
         print(maile_name)
 
-        #usernameのget
-        words["username"] = "KOSUPE"
-        words["userimg"]  = "static\img\maru_icon.png"
+        #EmailとpwのPOSTしたとき
+        user_info = DBClass.serch_user(maile_name, pw_name)
+        if len(user_info) > 0: #userが見つかったとき
+            words["username"] = user_info[0][2]
+            words["userimg"]  = user_info[0][3]
+        
 
     return render_template('public/index.html', key=words)
 
