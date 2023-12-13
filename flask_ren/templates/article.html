@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="static/css/article.css">
+</head>
+
+<body>
+    <header>
+        <a href="/">Home</a>
+    </header>
+    <div class="frame">
+        <div class="articleArea">
+            <div class="articleTitle">
+                Pygameのマウス操作
+            </div>
+            <div class="articleText">
+                Pygameのマウスを扱いやすく工夫してみました。<br><br>
+                MouseClassを作るというものです。以後Mouseと呼びます。<br>
+                このMouseには常に現在のマウスのイベントを読み込み、クリックされたか、もしくはボタンが解放されたか、などを管理するものです。<br><br>
+                <img src="../static/img/article/pygame_MouseClass.png"><br><br>
+                このMouseをimportして使うと下記のように使える。<br><br>
+                if&nbsp;Mouse.is_Left_clicked():<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("左クリックされました")<br><br>
+                加えて、&nbsp;&nbsp;Mouse.X,&nbsp;Mouse.Y&nbsp;&nbsp;のようにしてカーソルのXY座標をどのファイルからでも参照できるようになります。<br><br>
+                また、このMouseを使うときは、mainのwhile文の中でupdateを下記のように行う必要がある。<br><br>
+                <img src="../static/img/article/pygame_MouseClass_main.png"><br><br><br>
+                今回はpygameでのマウス操作を簡易的に行う手法をお話ししました。<br>
+                他にも興味のある記事がありましたら、ぜひご覧ください。
+            </div>
+        </div>
+        <div class="categryArea">
+            <h2 class="categryTitle">Categry</h2>
+            <div class="categrys">
+                <ul>
+                    <li><a href="#">Pygame</a>(1)</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="static/js/article.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

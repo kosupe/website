@@ -16,7 +16,7 @@ body {
     justify-content: center; /*flexと一緒、縦*/
     align-items: center;     /*flexと一緒、横*/
     min-height: 100vh;
-    background: url("background.jpg") no-repeat;
+    background: url("../img/background.jpg") no-repeat;
     background-size: cover;
 }
 

@@ -24,12 +24,18 @@ def home():
             words["userimg"]  = user_info[0][3]
         
 
-    return render_template('public/index.html', key=words)
+    return render_template('index.html', key=words)
 
 @app.route("/igo")
 def igo():
     print("igo")
-    return render_template('igo/index.html')
+    return render_template('igo.html')
+
+@app.route("/Article")
+def Article():
+    print("Article")
+    return render_template('article.html')
+
 
 @app.route("/<value>")
 def test(value):
