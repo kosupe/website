@@ -1,0 +1,476 @@
+[
+   [
+      {
+         "char": "兵",
+         "YOMI": "hyou"
+      },
+      {
+         "char": "藤",
+         "YOMI": "dou"
+      },
+      {
+         "char": "一",
+         "YOMI": "i"
+      },
+      {
+         "char": "誠",
+         "YOMI": "ssei"
+      }
+   ],
+   [
+      {
+         "char": "ハ",
+         "YOMI": "ha"
+      },
+      {
+         "char": "イ",
+         "YOMI": "i"
+      },
+      {
+         "char": "ス",
+         "YOMI": "su"
+      },
+      {
+         "char": "ク",
+         "YOMI": "ku"
+      },
+      {
+         "char": "ー",
+         "YOMI": "-"
+      },
+      {
+         "char": "ル",
+         "YOMI": "ru"
+      },
+      {
+         "char": "D",
+         "YOMI": "d"
+      },
+      {
+         "char": "D",
+         "YOMI": "d"
+      }
+   ],
+   [
+      {
+         "char": "リ",
+         "YOMI": "ri"
+      },
+      {
+         "char": "ア",
+         "YOMI": "a"
+      },
+      {
+         "char": "ス",
+         "YOMI": "su"
+      },
+      {
+         "char": "・",
+         "YOMI": "."
+      },
+      {
+         "char": "グ",
+         "YOMI": "gu"
+      },
+      {
+         "char": "レ",
+         "YOMI": "re"
+      },
+      {
+         "char": "モ",
+         "YOMI": "mo"
+      },
+      {
+         "char": "リ",
+         "YOMI": "ri"
+      },
+      {
+         "char": "ー",
+         "YOMI": "-"
+      }
+   ],
+   [
+      {
+         "char": "塔",
+         "YOMI": "tou"
+      },
+      {
+         "char": "城",
+         "YOMI": "jou"
+      },
+      {
+         "char": "子",
+         "YOMI": "ko"
+      },
+      {
+         "char": "猫",
+         "YOMI": "neko"
+      }
+   ],
+   [
+      {
+         "char": "白",
+         "YOMI": "haku"
+      },
+      {
+         "char": "龍",
+         "YOMI": "ryuu"
+      },
+      {
+         "char": "皇",
+         "YOMI": "kou"
+      }
+   ],
+   [
+      {
+         "char": "赤",
+         "YOMI": "seki"
+      },
+      {
+         "char": "龍",
+         "YOMI": "ryuu"
+      },
+      {
+         "char": "帝",
+         "YOMI": "tei"
+      }
+   ],
+   [
+      {
+         "char": "上",
+         "YOMI": "jou"
+      },
+      {
+         "char": "級",
+         "YOMI": "kyuu"
+      },
+      {
+         "char": "悪",
+         "YOMI": "aku"
+      },
+      {
+         "char": "魔",
+         "YOMI": "ma"
+      }
+   ],
+   [
+      {
+         "char": "ジャ",
+         "YOMI": "ja"
+      },
+      {
+         "char": "ガ",
+         "YOMI": "ga"
+      },
+      {
+         "char": "ー",
+         "YOMI": "-"
+      },
+      {
+         "char": "ノ",
+         "YOMI": "no"
+      },
+      {
+         "char": "ー",
+         "YOMI": "-"
+      },
+      {
+         "char": "ト",
+         "YOMI": "to"
+      },
+      {
+         "char": "ド",
+         "YOMI": "do"
+      },
+      {
+         "char": "ラ",
+         "YOMI": "ra"
+      },
+      {
+         "char": "イ",
+         "YOMI": "i"
+      },
+      {
+         "char": "ブ",
+         "YOMI": "bu"
+      }
+   ],
+   [
+      {
+         "char": "冥",
+         "YOMI": "mei"
+      },
+      {
+         "char": "界",
+         "YOMI": "kai"
+      }
+   ],
+   [
+      {
+         "char": "セ",
+         "YOMI": "se"
+      },
+      {
+         "char": "イ",
+         "YOMI": "i"
+      },
+      {
+         "char": "ク",
+         "YOMI": "ku"
+      },
+      {
+         "char": "リ",
+         "YOMI": "ri"
+      },
+      {
+         "char": "ッ",
+         "YOMI": "d"
+      },
+      {
+         "char": "ド",
+         "YOMI": "do"
+      },
+      {
+         "char": "ギ",
+         "YOMI": "gi"
+      },
+      {
+         "char": "ア",
+         "YOMI": "a"
+      }
+   ],
+   [
+      {
+         "char": "姫",
+         "YOMI": "hime"
+      },
+      {
+         "char": "島",
+         "YOMI": "zima"
+      },
+      {
+         "char": "朱",
+         "YOMI": "ake"
+      },
+      {
+         "char": "乃",
+         "YOMI": "no"
+      }
+   ],
+   [
+      {
+         "char": "ゼ",
+         "YOMI": "ze"
+      },
+      {
+         "char": "ノ",
+         "YOMI": "no"
+      },
+      {
+         "char": "ヴィ",
+         "YOMI": "vi"
+      },
+      {
+         "char": "ア",
+         "YOMI": "a"
+      }
+   ],
+   [
+      {
+         "char": "ロ",
+         "YOMI": "ro"
+      },
+      {
+         "char": "ス",
+         "YOMI": "su"
+      },
+      {
+         "char": "ヴァ",
+         "YOMI": "va"
+      },
+      {
+         "char": "イ",
+         "YOMI": "i"
+      },
+      {
+         "char": "セ",
+         "YOMI": "se"
+      }
+   ],
+   [
+      {
+         "char": "フェ",
+         "YOMI": "fe"
+      },
+      {
+         "char": "ニ",
+         "YOMI": "ni"
+      },
+      {
+         "char": "ッ",
+         "YOMI": "k"
+      },
+      {
+         "char": "ク",
+         "YOMI": "ku"
+      },
+      {
+         "char": "ス",
+         "YOMI": "su"
+      }
+   ],
+   [
+      {
+         "char": "ア",
+         "YOMI": "a"
+      },
+      {
+         "char": "ザ",
+         "YOMI": "za"
+      },
+      {
+         "char": "ゼ",
+         "YOMI": "ze"
+      },
+      {
+         "char": "ル",
+         "YOMI": "ru"
+      }
+   ],
+   [
+      {
+         "char": "オ",
+         "YOMI": "o"
+      },
+      {
+         "char": "カ",
+         "YOMI": "ka"
+      },
+      {
+         "char": "ル",
+         "YOMI": "ru"
+      },
+      {
+         "char": "ト",
+         "YOMI": "to"
+      },
+      {
+         "char": "研",
+         "YOMI": "kenn"
+      },
+      {
+         "char": "究",
+         "YOMI": "kyuu"
+      },
+      {
+         "char": "部",
+         "YOMI": "bu"
+      }
+   ],
+   [
+      {
+         "char": "堕",
+         "YOMI": "da"
+      },
+      {
+         "char": "天",
+         "YOMI": "tenn"
+      },
+      {
+         "char": "使",
+         "YOMI": "si"
+      }
+   ],
+   [
+      {
+         "char": "天",
+         "YOMI": "tenn"
+      },
+      {
+         "char": "使",
+         "YOMI": "si"
+      }
+   ],
+   [
+      {
+         "char": "エ",
+         "YOMI": "e"
+      },
+      {
+         "char": "ク",
+         "YOMI": "ku"
+      },
+      {
+         "char": "ス",
+         "YOMI": "su"
+      },
+      {
+         "char": "カ",
+         "YOMI": "ka"
+      },
+      {
+         "char": "リ",
+         "YOMI": "ri"
+      },
+      {
+         "char": "バ",
+         "YOMI": "ba"
+      },
+      {
+         "char": "ー",
+         "YOMI": "-"
+      }
+   ],
+   [
+      {
+         "char": "ミ",
+         "YOMI": "mi"
+      },
+      {
+         "char": "カ",
+         "YOMI": "ka"
+      },
+      {
+         "char": "エ",
+         "YOMI": "e"
+      },
+      {
+         "char": "ル",
+         "YOMI": "ru"
+      }
+   ],
+   [
+      {
+         "char": "天",
+         "YOMI": "tenn"
+      },
+      {
+         "char": "界",
+         "YOMI": "kai"
+      }
+   ],
+   [
+      {
+         "char": "使",
+         "YOMI": "tuka"
+      },
+      {
+         "char": "い",
+         "YOMI": "i"
+      },
+      {
+         "char": "魔",
+         "YOMI": "ma"
+      }
+   ],
+   [
+      {
+         "char": "神",
+         "YOMI": "zinn"
+      },
+      {
+         "char": "器",
+         "YOMI": "gi"
+      }
+   ]
+]

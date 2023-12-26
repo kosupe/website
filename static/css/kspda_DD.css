@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;    /*flexと一緒、横*/
+    min-height: 100vh;
+    padding-top: 10vh;
+    background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+/*ここからがArticleのCSS*/
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 32px;
+    padding-left: 12px;
+    background-color: rgba(250, 40, 200, 0.2);
+    backdrop-filter: blur(3px);
+}
+
+header a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 12px 0 12px;
+    font-size: 1.1em;
+}
+
+header a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transition: .2s;
+    transform: translateX(-50%);/*動き出す基準を変更*/
+}
+
+
+header a:hover::after{
+    width: 100%;
+}
+
+.gameFrame {
+    position: relative;
+    width: 1080px;
+    height: 608px;
+    /* background: url("../img/kspda/bg1.jpg"); */
+}
+
+.gameFrame .filter{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.gameFrame .topbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.gameFrame .topbar .timerArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+.gameFrame .topbar .timerArea .time{
+    font-size: 3em;
+    color: azure;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 2px #dfdb05);
+}
+
+.gameFrame .topbar .bonusArea{
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    width: 60%;
+}
+
+.gameFrame .topbar .bonusArea .bonus{
+    height: 60px;
+    width: 60px;
+    margin: 0 4px 0 4px;
+}
+
+.ACbonus {
+    filter: drop-shadow(2px 2px 2px rgb(255, 15, 15));
+}
+
+.ACSuperbonus {
+    filter: drop-shadow(2px 2px 2px rgb(255, 239, 15));
+}
+
+.ACSuperSpecialbonus {
+    filter: drop-shadow(2px 2px 2px rgb(3, 119, 13));
+}
+
+.gameFrame .main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+.gameFrame .main .text{
+    font-size: 2.5em;
+    color: #fff;
+    filter: drop-shadow(2px 2px 2px #d329ca);
+    font-weight: bold;
+}
+
+.gameFrame .main .textYOMI{
+    font-size: 1.5em;
+    color: #fff;
+    filter: drop-shadow(2px 2px 2px #d329ca);
+    font-weight: bold;
+}
+
+.gameFrame .main .pushSpace{
+    font-size: 3em;
+    color: #000;
+    filter: drop-shadow(2px 2px 2px #d64848) drop-shadow(1px 1px 1px #fbff00);
+    font-weight: bold;
+}
+
+.nyuuryoku {
+    color: #24071b;
+    transition: 0.2s;
+    filter: drop-shadow(2px 2px 2px #d329ca) drop-shadow(2px 2px 4px #000);
+}
