@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="../static/css/article.css">
+</head>
+
+<body>
+    <header>
+        <a href="/">Home</a>
+        <a href="/Article">Article</a>
+    </header>
+    <div class="frame">
+        <div class="articleArea">
+            {% block content %}
+            <div class="articleTitle">
+                <h3>{{article_json["title"]}}</h3>
+                <div class="date">{{article_json["date"]}}</div>
+            </div>
+            <div class="articleText">
+                {{article_json["html"]}}
+            </div>
+            {% endblock %}
+        </div>
+        <div class="categryArea">
+            <h2 class="categryTitle">Categry</h2>
+            <div class="categrys">
+
+                <ul>
+                    {% for categry_json in categry_jsons %}
+                    <li><a href="#">{{categry_json["title"]}}</a>({{categry_json["count"]}})</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="static/js/article.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+
+

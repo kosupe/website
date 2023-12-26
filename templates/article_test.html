@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="../static/css/article.css">
+</head>
+
+<body>
+    <header>
+        <a href="/">Home</a>
+        <a href="/Article">Article</a>
+    </header>
+    <div class="frame">
+        <div class="articleArea">
+            
+            <div class="articleTitle">
+                <h3>JavaScriptでタイピングゲームをつくる</h3>
+                <div class="date">2023.12.18</div>
+            </div>
+            <div class="articleText">
+                <!-- ここのテキストがDBに保存されるはず -->
+                今回はタイピングゲームを作ったのでロジックなどを解説していきます。<br><br>
+                <br>
+                <h3>目次</h3><br><br>
+                <img src="../static/img/article/flask_umekomi.png"><br><br>
+                Markup()の中に書くことによってdivなどのタグをエスケープされないようにしています。<br><br>
+                今回はHTMLの埋め込み方法のひとつを紹介しました。<br>
+                詳しく知りたい方はこちら
+                <a href="https://ja.stackoverflow.com/questions/46630/flask%e3%81%a7%e5%a4%89%e6%95%b0%e3%82%92%e6%96%87%e5%ad%97%e5%88%97%e3%81%a7%e3%81%af%e3%81%aa%e3%81%8fhtml%e3%81%ae%e3%82%bf%e3%82%b0%e3%81%a8%e3%81%97%e3%81%a6%e8%aa%ad%e3%81%bf%e8%be%bc%e3%81%be%e3%81%9b%e3%81%9f%e3%81%84">こちら</a>
+                の記事が参考になると思います。    
+
+            </div>
+            
+        </div>
+        <div class="categryArea">
+            <h2 class="categryTitle">Categry</h2>
+            <div class="categrys">
+
+                <ul>
+                    {% for categry_json in categry_jsons %}
+                    <li><a href="#">{{categry_json["title"]}}</a>({{categry_json["count"]}})</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="static/js/article.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
